@@ -66,6 +66,7 @@ class MainActivity : AppCompatActivity() {
                             this.text = "I changed this banner"
                             setTextColor(resources.getColor(R.color.black, theme))
                             textSize = 30f
+                            setCompoundDrawablesWithIntrinsicBounds(android.R.drawable.star_on, 0, 0, 0)
                         })
 
                         setOnClickListener {
